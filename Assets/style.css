@@ -1,0 +1,93 @@
+alert("hello");
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+
+}
+
+header {
+  background: #333;
+}
+
+img{
+  align-items: center;
+}
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+navbar-default {
+  position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 1000%;
+}
+
+a  { position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 100px;
+  text-align: center;
+  padding-right: 2px;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: bottom;
+}
+
+
+button{
+        font-size: 100px;
+        width: 8%;
+        font-weight: bold;
+        height: 80px;
+    padding-left: 100px;
+    background:url(/Images/makeup.PNG)
+     background-color: white; 
+   border-radius: 50%;
+   font-style: bold;
+     box-shadow: 0 9px #999;
+       
+}
+input{
+ width: 30%;
+        height: 100px;
+        font-size: 100px;
+    background:url(/Images/makeup.PNG)
+    font-weight: bold;
+     background-color: #FFF0F5; /* Green */
+   border-radius: 50%;
+    display: inline-block;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+    box-shadow: 0 9px #999;
+    text-decoration: none;
+    color: initial;
+    }
+    body {
+    background-color:  black;
+  }

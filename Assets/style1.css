@@ -1,0 +1,103 @@
+alert("hello");
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+facebook-button {
+  background: url('facebook-logo.png') left center no-repeat;
+  padding-left: 15px;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: ##FFEBCD;
+  background: #FFEBCD;
+}
+
+header {
+  background: #333;
+    background: url(./Images/makeup.png) no-repeat;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+a {
+  color: ##FFEBCD;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: bottom;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+}
+button:active  /* use Dot here */
+{   
+    
+
+}
+button{
+ width: 20%;
+        height: 100px;
+  
+   background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/119678-200.png") no-repeat;
+   text-decoration-style: white;
+  padding-right: 15px;
+text-align: right;
+     background-color: grey;  /* Green */
+   border-radius: 50%;
+    display: inline-block;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    font-size: 100%;
+    box-shadow: 0 9px #999;
+    text-decoration: white;
+    color: white;
+    }
+    body {
+  background: url(https://images-production.global.ssl.fastly.net/uploads/posts/image/131825/justin-bieber-im-the-one.jpg?auto=compress&crop=faces%2Ctop&fit=crop&h=421&q=55&w=750);
+  
+  }
